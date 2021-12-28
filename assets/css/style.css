@@ -140,7 +140,27 @@ section {
   padding: 10px 20px;
   font-size: 16px;
 }
+/* Hero Style Ends */
 
+/* Begin Section Title styling */
+.section-title {
+  font-size: 55px;
+  color: #024e76;
+  border-bottom: 3px solid;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
+}
+.primary-border {
+  border-color: #fce138;
+}
+.secondary-border {
+  border-color: #39a6b2;
+}
+/* End Section Title Styling */
+
+/* "What We Do" begin */
 .intro p {
   line-height: 1.7;
   color: #39a6b2;
@@ -149,8 +169,9 @@ section {
   margin: 0 auto;
   text-align: center;
 }
+/* "What We Do" end */
 
-/* Begin Styling for Steps in the "What You Do" Section */
+/* "What You Do" begin */
 /* Using Flexbox to make page more responsive- visually appealing and easy to use on all screens */
 .steps {
   background: #fce138;
@@ -176,6 +197,13 @@ section {
   flex-wrap: wrap;
   align-items: center;
 }
+.step-img {
+  flex: 1 12%;
+  margin-right: 20px;
+}
+.step-img img{
+  max-width: 100%;
+}
 .step-text {
   flex: 12;
 }
@@ -184,36 +212,12 @@ section {
   font-size: 18px;
 }
 .step-text h4{
-  font-size:26px;
+  font-size: 26px;
   line-height: 1.5;
   color:#024e76;
 }
-.step-image {
-  flex: 1 12%;
-  margin-right: 20 px;
-}
-.step-image img{
-  max-width: 100%;
-}
 /* End of Step Styling */
 
-/* Begin Section Title styling */
-.section-title {
-  font-size: 55px;
-  color: #024e76;
-  border-bottom: 3px solid;
-  padding-bottom: 20px;
-  text-align: center;
-  margin: 0 auto 35px auto;
-  width: 50%;
-}
-.primary-border {
-  border-color: #fce138;
-}
-.secondary-border {
-  border-color: #39a6b2;
-}
-/* End Section Title Styling */
 
 /* Begin Trainer Cards Styling */
 .trainers {
@@ -295,7 +299,7 @@ section {
   /* This applies to all elements that are direct children of anything with the class "contact-info" */
   /* Not a good approach in a large website  */
   flex: 1;
-  margin: 15 px;
+  margin: 15px;
 }
 .contact-form input, 
 .contact-form textarea{
